@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asm</title>
+    <link rel="stylesheet" type="text/css" href="cssasm.css">
+</head>
+<style>
+           .form-button{
+            padding:8px 30px;
+            outline:none;
+            border:none;
+            border-radius:20px;
+            font-weight:bold;
+            background-color:white;
+            color:orangered;
+            box-shadow:inset 0 0 20px blue;}
+        .form-button:hover{
+            color:blue;
+            box-shadow:inset 0 0 20px orangered;}
+        .form-button:disabled{
+            color:blue;
+            box-shadow:inset 0 0 20px gray;}
+
+{margin:auto;}
+    div#myForm{
+width:400px;}
+    .inwidth{width:380px;}
+    .textStyle{
+font-variant:Monospace;font-weight:bold;font-size:19px;}
+    .p{margin:10px;}
+
+</style>
+<body>
+    <div class="container">
+    <header>
+      <div style="width:600px;line-height: 35px;
+      margin:auto;padding:75px;">
+
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li>   <a href="index.html"> TRANG CHỦ </a></li>
+            <li>   <a href="tt.html"> TIN TỨC </a></li>
+            <li>   <a href="sp.html"> SẢN PHẨM </a></li>
+
+            <li>   <a href="lh.html"> LIÊN HỆ </a></li>
+            <li>   <a href="ph.html"> PHẢN HỒI </a></li>
+            <li>   <a href="đk.html"> ĐĂNG KÍ/ĐĂNG NHẬP </a></li>
+
+        </ul>
+    </nav>
+
+    <article>
+       <strong><h3> VUI LÒNG ĐIỀN THÔNG TIN</h3></strong>
+<div id="myForm">
+        <form>
+    <label class="textStyle" for=""> Họ và tên:</label></br>
+    <input class="inwidth" name="id" type="text"/></br><p/>
+
+    <div>
+        
+    <label class="textStyle" for="">Giới tính:
+        <label><input type="radio"> Nam</label>
+    <label><input type="radio"> Nữ</label>
+        
+    </div><p/>
+    
+    <div>
+    <label class="textStyle" for=""> Ngày sinh:</label><br/>
+    <input class="inwidth" type="date"/></p>
+<Input class="form-button" type = submit value = "Đăng kí" onclick = "alert('Chúc mừng bạn đã đăng kí thành công');">
+
+<Input class="form-button" type = submit value = "Nhập lại" onclick = "alert('Mời bạn nhập lại thông tin');">
+
+</div>
+    </article>
+
+    <aside>
+        <div class="outer">
+        <div class="inner tag">B<br/>Ả<br/>Y<br/>G<br/>Á<br/>O <br/>B<br/>Ả<br/>Y<br/>G<br/>Á<br/>O</div>
+
+        </div>
+    </aside>
+
+    <footer>
+        Địa chỉ: số 124 Đường 304, KP1, TT, Đông Dương, Phú Quốc<br>
+        Điện thoại:02973847347 - 0949777347<br>
+        Email:cssxruoubaygao@gmail.com 
+    </footer>
+
+
+</body>
+</html>

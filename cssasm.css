@@ -1,0 +1,146 @@
+body{
+        padding:0px ;
+        margin:0px ;}
+h2{ 
+left:10px ;
+top :250px ;
+text-align:left  ;
+position:relative; 
+color:white;
+text-shadow:0 0 5px brown;
+}
+
+.container{
+        max-width:1000px ;
+        margin:0 auto ;}
+
+.container > header{
+background-image:url('../final/Logo1.png');  
+background-size:100% 100%;
+height:0px;
+padding-bottom:20%;}
+
+.container>nav{
+    line-height: 40px;
+    background-color: brown ;
+    color:white;
+    text-align: center;
+    font-family: Monospace;
+   }
+.container > article{
+ min-height:400px;
+width:75%;
+background-color:white;
+float:left;} 
+
+.container>aside{
+    min-height: 550px;
+    width: 8%;
+    background-color: lightgray;
+    float: right;
+    line-height: 5px;}
+
+.outer {
+  width: 150px;
+  position: relative;
+  display: inline-block;
+  margin: 4px 20px;
+
+}
+
+.inner {
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  line-height:30px;
+}
+ .container > footer{  
+ border-top:10px double brown;
+line-height:25px;
+ background-color:lightcyan;
+ text-align:left;
+ font-variant:initial;
+clear:both;} 
+ .container > nav > a{
+color:white;
+text-decoration:none;
+margin:0 10px;} 
+ .container > nav > a:hover{  
+  color:yellow;
+      }
+.vmenu {
+padding:0px;
+margin:5px;
+list-style:none;
+border-radius:3px;
+box-shadow:0 0 2px  gray;} 
+.vmenu a{
+background: url('../Downloads/lll.gif') no-repeat 10px center;
+
+ display: block;
+border-bottom: 1px  dotted orangered ;
+ color: yellow  ;
+ font-variant: small-caps;
+ font-size: larger;
+text-decoration: none;
+ padding: 8px 5px 8px 30px;}  
+ .vmenu a:hover {
+ border-bottom: 1px dotted white;
+ background-color: orangered ;
+color: white;
+font-weight: bold;
+}
+.menu >ul>li{ 
+display: inline-block;
+position:relative ;} 
+
+.menu ul ul{ 
+padding:0px ;
+margin:0px ;
+list-style:none ;
+border-radius:3px ;
+width:200px ;
+background-color:white ;
+box-shadow:0 0 1px gray ;
+position:absolute ;
+display: none; }
+
+.menu ul ul a { 
+line-height:30px ;
+color: brown;
+text-decoration:none;
+font-variant:Monospace;
+font-size:larger ;
+padding:0 10px;
+display:block ;} 
+
+.menu ul ul a:hover{
+     background-color:brown ;
+     color:white ;
+}
+
+.menu >ul>li:hover>ul { 
+     display:block ;
+     z-index: 1;} 
+
+.menu >ul>li>a {
+display:block ; 
+text-decoration:none ;
+font-variant: small-caps ;
+font-size:larger;
+color:white;
+padding :0 10px ;
+line-height:40px ;}
+} 
+
+.menu>ul>li>a:hover{ 
+color:yellow ; }
+
+.menu >ul{ 
+padding:0px ; 
+margin:0px;
+list-style:none;
+border-radius:3px ;
+background-color:brown ;
+text-align:center ;}
